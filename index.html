@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf =8">
+        <meta http-equiv="X-UV-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/412bb7448b.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+<div id="header">
+    <div class="container">
+       
+        <nav>
+            <img src="Images/T2.png" alt="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#Myprojects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Computer Programmer</p>
+            <h1>Hi, I am <span>Rosemaria </span> <br> from Canada</h1>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------About----------- -->
+
+<div id="about">
+<div class="container">
+    <div class="row">
+        <div class="about-col-1">
+            <h1 class="subtitle">About Me</h1>
+            <p>Hi, I'm Rosemaria Paul, a recent computer programming graduate passionate about using technology 
+                to solve problems. Proficient in Java, Python, JavaScript, and C++, I also have experience in web development
+                 (HTML, CSS, React.js, Angular) and database management (MySQL, PostgreSQL). With strong communication, 
+                 teamwork, and time management skills, I'm eager to contribute to innovative projects and continue growing as 
+                 a software developer after graduating with a Diploma in Computer Programming from Georgian College.</p>
+            
+                 <div class="tab-titles">
+                    <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java/JS</span><br>Profiecient</li>
+                        <li><span>HTMl</span><br>Profiecient</li>
+                        <li><span>.NET</span><br>Profiecient</li>
+                        <li><span>CSS</span><br>Profiecient</li>
+                        <li><span>Python</span><br>Profiecient</li>
+                        
+                    </ul>
+                 </div>
+                 <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>G-Tec</span><br>Java Tutor</li>
+                        <li><span>College Projects</span><br></li>
+                    </ul>
+                 </div>
+                 <div class="tab-contents"id="education">
+                    <ul>
+                        <li><span>Computer Programming</span><br>Georgian College, Barrie, ON</li>
+                        <li><span>Higher Secondary</span><br>MGM GHSS, Kerala, India</li> 
+                    </ul>
+                 </div>
+        </div>
+
+        <div class="about-col-2">
+            <img src="Images/bg3.jpg" alt="bg">
+        </div>
+    </div>
+</div>
+</div>
+
+<!-- ------------------Services-------------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developing</h2>
+                <p>I do develop and design web pages</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Application</h2>
+                <p>I do develop and design web pages</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-battle-net"></i>
+                <h2>.NET Application</h2>
+                <p>I do develop and design web pages</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+ <!-- --------------------My Projects------- -->
+
+ <div id="Myprojects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="Images/calcu.jpg">
+                <div class="layer">
+                    <h3>Calculator App</h3>
+                    <p>The calculator App</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="Images/remm.jpg">
+              <div class="layer">
+                <h3>Reminder App</h3>
+                <p>The calculator App</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <div class="project">
+                <img src="Images/tictac.png">
+               <div class="layer">
+                <h3>Tic Tac App</h3>
+                <p>The calculator App</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+               </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+<!-- ----------Contact--------------- -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+<h1 class="sub-title">Contact Me</h1>   
+<p><i class="fa-solid fa-envelope"></i>rosemariapaul056@gmail.com</p>
+<p><i class="fa-solid fa-phone"></i>705-818(4325)</p>
+<div class="social-icons">
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/roxe_maria_.0/"><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+</div>
+<a href="Images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Made by Rose <i class="fa-regular fa-face-smile"></i> Copyright Warning </p>
+    </div>
+</div>
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+for(tablink of tablinks){
+    tablink.classList.remove("active-links");
+}
+for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+}
+event.currentTarget.classList.add("active-links");
+document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbywkVcezBh2p6K00NN-xoGRGBlHNJzaHzYRSmhM8kbqAMVd3G7JstCxibrN_4fyMde83g/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </body>
+</html>
